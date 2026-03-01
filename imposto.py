@@ -7,7 +7,7 @@ try:
     preco = float(texto)
 
     if preco < 0:
-        raise ValueError("Preço negativo não permitido.")
+        raise ValueError("Preço nffativo não permitido.")
 
     imposto = 1.1
     print("Preço com imposto:", preco * imposto)
